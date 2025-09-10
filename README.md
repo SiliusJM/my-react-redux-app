@@ -1,18 +1,19 @@
-# ⚛️ React Redux Toolkit - Ejemplos prácticos
+# ⚛️ Redux Toolkit - Todo List Ejemplo
 
-Este repositorio contiene ejemplos básicos de cómo implementar **Redux Toolkit** en una aplicación React, mostrando la creación de un **store**, definición de **acciones y reducers**, y un **componente Todo List** como caso práctico.
+Este repositorio muestra cómo implementar un **Todo List con Redux Toolkit**, utilizando **store**, **actions**, **reducer** y un **componente conectado**.  
+La idea es aprender a manejar estados globales de forma escalable y con menos código que Redux clásico.
 
 ---
 
 ## 📖 Descripción
 
 - **Redux Toolkit Store y Actions:**  
-  Creación de un store centralizado con `configureStore` y definición de acciones con `createSlice`.
+  Configuración del store con `configureStore` y definición de acciones (`addTodo`, `removeTodo`) con `createAction`.
 
 - **Redux Toolkit Reducer:**  
-  Uso de reducers generados automáticamente por los *slices* para modificar el estado.
+  Manejo del estado con `createReducer`, aplicando las acciones sobre un array de tareas.
 
-- **Redux Toolkit Todo List:**  
-  Ejemplo práctico de lista de tareas con Redux Toolkit: agregar, eliminar y marcar como completadas.
+- **Redux Toolkit Componente Todo List:**  
+  Un componente `TodoList` que permite **agregar tareas** con enter, mostrar la lista y **eliminar tareas al hacer clic**.
 
 ---
